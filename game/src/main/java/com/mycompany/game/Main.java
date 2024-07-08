@@ -4,20 +4,20 @@
  * and open the template in the editor.
  */
 package com.mycompany.game;
-
 /**
  *
  * @author D-23
  */
 //File Main.java
+
 public class Main {
     public static void main(String[] args) {
         
-        NumberGuessingGame numberGame = new NumberGuessingGame(7);
+        NumberGuessingGame numberGame = new NumberGuessingGame(3);
         numberGame.play();
 
         String[] words = {"apel", "pisang", "mangga"};
-        wordGuessingGame wordGame = new wordGuessingGame(5, words);
+        wordGuessingGame wordGame = new wordGuessingGame(3, words);
         wordGame.play();
     }
 }
